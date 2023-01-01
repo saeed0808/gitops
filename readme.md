@@ -43,4 +43,9 @@ argocd app history <appname> #Get information about an Argo CD application.
 argocd app rollback <appname> #Rollback to a previous version
 argocd app set <appname> #Set the application’s configuration.
 argocd app delete <appname> #Delete an Argo CD application.
+
 ```
+
+##test
+kubectl port-forward service/myhelmapp 8888:80 -n dev
+
